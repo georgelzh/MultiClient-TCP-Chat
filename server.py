@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-	server.py = TCP chat App server that listens all the clients' requests on port 8888.
+	server.py = TCP chat App server that listens all the clients' requests on port 9000.
 	It helps the sender send messages to the receiver.
 	Then it returns a "success" to sender. Then it prints the message that was sent.
 	Author: Zhihong Li(zhihongli@bennington.edu)
