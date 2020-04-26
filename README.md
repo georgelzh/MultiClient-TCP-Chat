@@ -1,4 +1,4 @@
-#Server Side
+# Server Side
 server receives data in a format:
 
 First 4 character - Length of the message to send
@@ -20,17 +20,17 @@ The timeout is set to 5s, if the server does not hear response from the receiver
 
 
 
-#Client Side
+# Client Side
 Client will send data in a format as mentioned above, then wait for the server to respond 
 "success". If the client receives "success" from server, it will continue to wait for the user to send another message.
 
 On the other side, the client will forever listen to the server. 
 Therefore, if the anyone send message to this client, it will receive the message and print it for the user.
 
-#how to use it.
+# how to use it.
 
 The user will be prompt to enter destination ip address,
 And then it will prompt the user to enter message to send.
 Then program will automatically packet the message in the format mentioned above and send it. 
 
-#You can customize the server ip address in the client.py
+# You can customize the server ip address in the client.py
