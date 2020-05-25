@@ -35,7 +35,7 @@ Then program will automatically packet the message in the format mentioned above
 
 # You can customize the server ip address in the client.py
 
-# To Do:
+# Further Development:
 when the server fails to pass message from sender to receiver even though the server has received the data correctly, in this case, the usual reason is that the receiver is not online yet. 
 Therefore:
 A function is needed to update the online user list.
