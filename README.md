@@ -34,3 +34,10 @@ And then it will prompt the user to enter message to send.
 Then program will automatically packet the message in the format mentioned above and send it. 
 
 # You can customize the server ip address in the client.py
+
+# To Do:
+when the server fails to pass message from sender to receiver even though the server has received the data correctly, in this case, the usual reason is that the receiver is not online yet. 
+Therefore:
+A function is needed to update the online user list.
+A function is needed to store the message after server receives it and send whenever the receiver is back online.
+Then informs the sender that the receiver has received the message(optional)
